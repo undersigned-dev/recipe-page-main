@@ -26,16 +26,19 @@ hr {
   border-radius: 0.6rem;
 }
 
-h1,
-h2 {
-  font-family: young serif;
-}
 h2,
 ol li::marker,
 span:nth-child(2) {
   color: hsl(14, 45%, 36%);
   font-weight: 600;
 }
+
+h1,
+h2 {
+  font-family: young serif;
+  font-weight:500
+}
+
 p,
 li,
 span:first-child {
