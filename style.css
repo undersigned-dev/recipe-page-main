@@ -90,3 +90,7 @@ li::marker {
 .nutrition-fact span:first-child {
   padding-left: 2rem;
 }
+
+footer {
+  text-align: center;
+}
