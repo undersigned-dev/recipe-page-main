@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: hsl(30, 54%, 90%);
+  font-family: outfit;
+  font-size: 1rem;
+}
+
+main {
+  margin: 7rem auto;
+  border-radius: 1.1rem;
+  height: fit-content;
+  max-width: 40rem;
+  background-color: white;
+  padding: 2rem;
+}
+
+hr {
+  color: rgba(277, 277, 277, 0.8);
+}
+
+.recipe-pic img {
+  max-width: 40rem;
+  border-radius: 0.6rem;
+}
+
+h1,
+h2 {
+  font-family: young serif;
+}
+h2,
+ol li::marker,
+span:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+p,
+li,
+span:first-child {
+  color: hsl(30, 10%, 34%);
+}
+b {
+  color: hsl(30, 10%, 34%);
+}
+
+ul,
+ol {
+  padding-left: 1.3rem;
+}
+
+li {
+  margin: 0.7rem 0;
+  padding: 0 0 0 1rem;
+}
+.instructions li::marker {
+  margin-right: 1rem;
+  font-size: 1rem;
+}
+
+li::marker {
+  font-size: 0.8rem;
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 2rem;
+  border-radius: 0.8rem;
+}
+.preparation li {
+  margin-left: 1.1rem;
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+  margin: 0;
+}
+
+.nutrition-fact {
+  margin-bottom: 1rem;
+}
+
+.nutrition-fact span {
+  display: inline-block;
+  width: 40%;
+}
+.nutrition-fact span:first-child {
+  padding-left: 2rem;
+}
